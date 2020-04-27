@@ -2,7 +2,13 @@
 <html>
 	<head>
 		<title>Basic template</title>
-	</head>
+    </head>
+    <style type="text/css">
+        body {
+            font-size: 40px;
+            font-family:Arial, Helvetica, sans-serif
+        }
+    </style>
 <body>
     <script type="text/javascript">
 	//Round function to only have two digits must be invented
@@ -19,7 +25,7 @@
     
     // \n = Linkebreaks in alerts
 
-    alert ("Your entered Value is (in €) = " + netvalue + "\nThis is the grossvalue (in €) = " + grossvalue + "\nThis is the taxrate that was added (in €) = " + taxvalue);
+    document.write ("Your entered Value is (in €) = " + netvalue + "<br>This is the grossvalue (in €) = " + grossvalue + "<br>This is the taxrate that was added (in €) = " + taxvalue);
 
     
 
